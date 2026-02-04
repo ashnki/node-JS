@@ -137,29 +137,5 @@ docker logs node_app
 * Docker Compose service names act as DNS hostnames
 * `.env` files should not be copied into Docker images
 
----
-
-## Next Steps
-
-* Add migrations and seed data
-* Add health checks
-* Add production-ready configs
-* Add another language-based service (Python / Go / Java)
-
----
-
-## License
-
-MIT
-
-```
-
----
-
-If you want next:
-- `ROOT-ROUTE` → add `/` endpoint cleanly
-- `PROD` → production-grade Dockerfile
-- `NEXT-PROJECT` → Python + FastAPI + MySQL
-```
 
 
