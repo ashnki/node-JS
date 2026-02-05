@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: YOUR_DOCKER_IMAGE
+        image: kinni1621/node-express-postgres
         ports:
         - containerPort: 3000
         envFrom:
